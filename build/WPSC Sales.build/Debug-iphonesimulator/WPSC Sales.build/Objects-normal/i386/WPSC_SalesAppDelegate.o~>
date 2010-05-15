@@ -1,0 +1,7 @@
+/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m: In function '-[WPSC_SalesAppDelegate saveBlog:]':
+/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m:54: warning: 'RootViewController' may not respond to '-getUsername'
+/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m:54: warning: (Messages without a matching method signature
+/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m:54: warning: will be assumed to return 'id' and accept
+/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m:54: warning: '...' as arguments.)
+/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m:55: warning: 'RootViewController' may not respond to '-getPassword'
+/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m:56: warning: 'RootViewController' may not respond to '-getURL'
