@@ -1,7 +1,7 @@
 TWPSC Sales
 v7
 r0
-t295613556.387674
+t295659591.863093
 cCheck dependencies
 cProcessInfoPlistFile "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/Info.plist" WPSC_Sales-Info.plist
 cCompileXIB "/Users/hanzhimeng/Documents/WPSC Sales/MainWindow.xib"
@@ -94,26 +94,26 @@ s4052
 i"NSStringAdditions.h"
 
 N/Users/hanzhimeng/Documents/WPSC Sales/Classes/RootViewController.h
-c000000004BEE75E40000000000000263
-t1273918948
-s611
+c000000004BEE90C200000000000002AB
+t1273925826
+s683
 
 N/Users/hanzhimeng/Documents/WPSC Sales/Classes/RootViewController.m
-c000000004BEE7B1C00000000000010FE
-t1273920284
-s4350
+c000000004BEE81450000000000001178
+t1273921861
+s4472
 i"RootViewController.h"
 
 N/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.h
-c000000004BEE77D20000000000000222
-t1273919442
-s546
+c000000004BEE9270000000000000024F
+t1273926256
+s591
 i"XMLRPCConnectionDelegate.h"
 
 N/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m
-c000000004BEE7CED0000000000000806
-t1273920749
-s2054
+c000000004BEF6D660000000000000982
+t1273982310
+s2434
 i"WPSC_SalesAppDelegate.h"
 i"RootViewController.h"
 i"XMLRPCRequest.h"
@@ -345,23 +345,23 @@ i"XMLValueDecoder.h"
 i"XMLRPCExtensions.h"
 
 N/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app
-t1273920750
+t1273966764
 s272
 
 N/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app.dSYM
-t1273920750
+t1273966764
 s102
 
 N/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/Info.plist
-t1272429555
-s576
+t1273925965
+s618
 
 N/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/MainWindow.nib
 t1273919885
 s2302
 
 N/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/PkgInfo
-t1272429555
+t1273925965
 s8
 
 N/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/RootViewController.nib
@@ -369,8 +369,8 @@ t1273918590
 s5425
 
 N/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/WPSC Sales
-t1273920750
-s67120
+t1273966764
+s67352
 
 N/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/getshopped.png
 t1273914012
@@ -385,8 +385,8 @@ t1272540529
 s9500
 
 N/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/Objects-normal/i386/RootViewController.o
-t1273920311
-s34004
+t1273925828
+s34740
 
 N/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/Objects-normal/i386/WPSC Sales.LinkFileList
 c000000004BD96D71000000000000069E
@@ -394,8 +394,8 @@ t1272540529
 s1694
 
 N/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/Objects-normal/i386/WPSC_SalesAppDelegate.o
-t1273920750
-s45868
+t1273966764
+s47872
 
 N/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/Objects-normal/i386/XMLRPCConnection.o
 t1272540529
@@ -457,13 +457,13 @@ t1272429560
 s13034960
 
 NWPSC_Sales-Info.plist
-c000000004BD7BBEE000000000000038D
-t1272429550
-s909
+c000000004BEE9149000000000000039B
+t1273925961
+s923
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies295613556#295613556#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies295659591#295659591#0(0"0(0#1#0"4300885448#0"0#
 
 CCompileC "build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/Objects-normal/i386/NSDataAdditions.o" "/Users/hanzhimeng/Documents/WPSC Sales/Classes/NSDataAdditions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s294233329.432643
@@ -492,8 +492,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@74"Compile /Users/hanzhimeng/Documents/WPSC Sales/Classes/NSStringAdditions.m294233329#294233329#0(0"0(0#0#66"/Users/hanzhimeng/Documents/WPSC Sales/Classes/NSStringAdditions.m4300885448#1975"    cd "/Users/hanzhimeng/Documents/WPSC Sales"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-generated-files.hmap" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-own-target-headers.hmap" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-all-target-headers.hmap" -iquote "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-project-headers.hmap" "-F/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/include" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/DerivedSources/i386" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/DerivedSources" -include /var/folders/iD/iD6wZnyHFb8C7OO4n2NowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WPSC_Sales_Prefix-cfybgfysbzyacfbahkgejzdkhbov/WPSC_Sales_Prefix.pch -c "/Users/hanzhimeng/Documents/WPSC Sales/Classes/NSStringAdditions.m" -o "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/Objects-normal/i386/NSStringAdditions.o"0#
 
 CCompileC "build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/Objects-normal/i386/RootViewController.o" "/Users/hanzhimeng/Documents/WPSC Sales/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s295613111.016464
-e295613111.124557
+s295618628.810630
+e295618628.886433
 r1
 xCompileC
 xbuild/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/Objects-normal/i386/RootViewController.o
@@ -502,11 +502,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/hanzhimeng/Documents/WPSC Sales/Classes/RootViewController.m295613111#295613111#0(0"0(0#0#67"/Users/hanzhimeng/Documents/WPSC Sales/Classes/RootViewController.m4300885448#1977"    cd "/Users/hanzhimeng/Documents/WPSC Sales"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-generated-files.hmap" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-own-target-headers.hmap" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-all-target-headers.hmap" -iquote "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-project-headers.hmap" "-F/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/include" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/DerivedSources/i386" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/DerivedSources" -include /var/folders/iD/iD6wZnyHFb8C7OO4n2NowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WPSC_Sales_Prefix-cfybgfysbzyacfbahkgejzdkhbov/WPSC_Sales_Prefix.pch -c "/Users/hanzhimeng/Documents/WPSC Sales/Classes/RootViewController.m" -o "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/Objects-normal/i386/RootViewController.o"0#
+lSLF07#2@75"Compile /Users/hanzhimeng/Documents/WPSC Sales/Classes/RootViewController.m295618628#295618628#0(0"0(0#0#67"/Users/hanzhimeng/Documents/WPSC Sales/Classes/RootViewController.m4300885448#1977"    cd "/Users/hanzhimeng/Documents/WPSC Sales"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-generated-files.hmap" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-own-target-headers.hmap" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-all-target-headers.hmap" -iquote "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-project-headers.hmap" "-F/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/include" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/DerivedSources/i386" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/DerivedSources" -include /var/folders/iD/iD6wZnyHFb8C7OO4n2NowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WPSC_Sales_Prefix-cfybgfysbzyacfbahkgejzdkhbov/WPSC_Sales_Prefix.pch -c "/Users/hanzhimeng/Documents/WPSC Sales/Classes/RootViewController.m" -o "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/Objects-normal/i386/RootViewController.o"0#
 
 CCompileC "build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/Objects-normal/i386/WPSC_SalesAppDelegate.o" "/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s295613550.712408
-e295613550.813792
+s295659563.882372
+e295659564.010540
 r1
 xCompileC
 xbuild/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/Objects-normal/i386/WPSC_SalesAppDelegate.o
@@ -515,12 +515,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m: In function '-[WPSC_SalesAppDelegate saveBlog:]':
-o/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m:62: warning: 'RootViewController' may not respond to '-getURL'
-o/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m:62: warning: (Messages without a matching method signature
-o/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m:62: warning: will be assumed to return 'id' and accept
-o/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m:62: warning: '...' as arguments.)
-lSLF07#2@78"Compile /Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m295613550#295613550#0(617"/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m: In function '-[WPSC_SalesAppDelegate saveBlog:]':/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m:62: warning: 'RootViewController' may not respond to '-getURL'/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m:62: warning: (Messages without a matching method signature/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m:62: warning: will be assumed to return 'id' and accept/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m:62: warning: '...' as arguments.)2(22@49"'RootViewController' may not respond to '-getURL'295613550#122#134#0(6@70"/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m295613549#62#0#62#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)295613550#256#130#0(6@70"/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m295613549#62#0#62#0#0"0(0#0#70"/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m4300885448#1983"    cd "/Users/hanzhimeng/Documents/WPSC Sales"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-generated-files.hmap" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-own-target-headers.hmap" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-all-target-headers.hmap" -iquote "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-project-headers.hmap" "-F/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/include" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/DerivedSources/i386" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/DerivedSources" -include /var/folders/iD/iD6wZnyHFb8C7OO4n2NowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WPSC_Sales_Prefix-cfybgfysbzyacfbahkgejzdkhbov/WPSC_Sales_Prefix.pch -c "/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m" -o "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/Objects-normal/i386/WPSC_SalesAppDelegate.o"0#
+lSLF07#2@78"Compile /Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m295659563#295659564#0(0"0(0#0#70"/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m4300885448#1983"    cd "/Users/hanzhimeng/Documents/WPSC Sales"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-generated-files.hmap" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-own-target-headers.hmap" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-all-target-headers.hmap" -iquote "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-project-headers.hmap" "-F/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/include" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/DerivedSources/i386" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/DerivedSources" -include /var/folders/iD/iD6wZnyHFb8C7OO4n2NowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WPSC_Sales_Prefix-cfybgfysbzyacfbahkgejzdkhbov/WPSC_Sales_Prefix.pch -c "/Users/hanzhimeng/Documents/WPSC Sales/Classes/WPSC_SalesAppDelegate.m" -o "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/Objects-normal/i386/WPSC_SalesAppDelegate.o"0#
 
 CCompileC "build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/Objects-normal/i386/XMLRPCConnection.o" "/Users/hanzhimeng/Documents/WPSC Sales/Classes/XMLRPCConnection.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s294233329.434735
@@ -753,32 +748,32 @@ xgetshopped.png
 lSLF07#2@19"Copy getshopped.png295606812#295606812#0(0"0(0#0#53"/Users/hanzhimeng/Documents/WPSC Sales/getshopped.png4300885448#467"    cd "/Users/hanzhimeng/Documents/WPSC Sales"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/hanzhimeng/Documents/WPSC Sales/getshopped.png" "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app"0#
 
 CGenerateDSYMFile "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app.dSYM" "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/WPSC Sales"
-s295613550.836435
-e295613550.875642
+s295659564.154971
+e295659564.188132
 r1
 xGenerateDSYMFile
 x/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app.dSYM
 x/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/WPSC Sales
-lSLF07#2@122"GenerateDSYMFile "build/Debug-iphonesimulator/WPSC Sales.app.dSYM" "build/Debug-iphonesimulator/WPSC Sales.app/WPSC Sales"295613550#295613550#0(0"0(0#0#92"/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/WPSC Sales4300885448#398"    cd "/Users/hanzhimeng/Documents/WPSC Sales"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/WPSC Sales" -o "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app.dSYM"0#
+lSLF07#2@122"GenerateDSYMFile "build/Debug-iphonesimulator/WPSC Sales.app.dSYM" "build/Debug-iphonesimulator/WPSC Sales.app/WPSC Sales"295659564#295659564#0(0"0(0#0#92"/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/WPSC Sales4300885448#398"    cd "/Users/hanzhimeng/Documents/WPSC Sales"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/WPSC Sales" -o "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app.dSYM"0#
 
 CLd "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/WPSC Sales" normal i386
-s295613550.813887
-e295613550.836325
+s295659564.010639
+e295659564.154834
 r1
 xLd
 x/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/WPSC Sales
 xnormal
 xi386
-lSLF07#2@97"Link /Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/WPSC Sales295613550#295613550#0(0"0(0#0#0"4300885448#889"    cd "/Users/hanzhimeng/Documents/WPSC Sales"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk "-L/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator" "-F/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator" -filelist "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/Objects-normal/i386/WPSC Sales.LinkFileList" -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/WPSC Sales"0#
+lSLF07#2@97"Link /Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/WPSC Sales295659564#295659564#0(0"0(0#0#0"4300885448#889"    cd "/Users/hanzhimeng/Documents/WPSC Sales"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk "-L/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator" "-F/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator" -filelist "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/Objects-normal/i386/WPSC Sales.LinkFileList" -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/WPSC Sales"0#
 
 CProcessInfoPlistFile "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/Info.plist" WPSC_Sales-Info.plist
-s294122355.416091
-e294122355.436572
+s295618765.568235
+e295618765.572647
 r1
 xProcessInfoPlistFile
 x/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/Info.plist
 xWPSC_Sales-Info.plist
-lSLF07#2@29"Process WPSC_Sales-Info.plist294122355#294122355#0(0"0(0#0#60"/Users/hanzhimeng/Documents/WPSC Sales/WPSC_Sales-Info.plist7308901739622116352#494"    cd "/Users/hanzhimeng/Documents/WPSC Sales"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility WPSC_Sales-Info.plist -genpkginfo "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/Info.plist"0#
+lSLF07#2@29"Process WPSC_Sales-Info.plist295618765#295618765#0(0"0(0#0#60"/Users/hanzhimeng/Documents/WPSC Sales/WPSC_Sales-Info.plist4300885448#494"    cd "/Users/hanzhimeng/Documents/WPSC Sales"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility WPSC_Sales-Info.plist -genpkginfo "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app/Info.plist"0#
 
 CProcessPCH /var/folders/iD/iD6wZnyHFb8C7OO4n2NowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WPSC_Sales_Prefix-cfybgfysbzyacfbahkgejzdkhbov/WPSC_Sales_Prefix.pch.gch WPSC_Sales_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s294122360.178507
@@ -794,10 +789,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@32"Precompile WPSC_Sales_Prefix.pch294122360#294122361#0(0"0(0#0#60"/Users/hanzhimeng/Documents/WPSC Sales/WPSC_Sales_Prefix.pch4300885448#1828"    cd "/Users/hanzhimeng/Documents/WPSC Sales"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-generated-files.hmap" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-own-target-headers.hmap" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-all-target-headers.hmap" -iquote "/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/WPSC Sales-project-headers.hmap" "-F/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/include" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/DerivedSources/i386" "-I/Users/hanzhimeng/Documents/WPSC Sales/build/WPSC Sales.build/Debug-iphonesimulator/WPSC Sales.build/DerivedSources" -c "/Users/hanzhimeng/Documents/WPSC Sales/WPSC_Sales_Prefix.pch" -o /var/folders/iD/iD6wZnyHFb8C7OO4n2NowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WPSC_Sales_Prefix-cfybgfysbzyacfbahkgejzdkhbov/WPSC_Sales_Prefix.pch.gch0#
 
 CTouch "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app"
-s295613550.875735
-e295613550.878178
+s295659564.188255
+e295659564.191038
 r1
 xTouch
 x/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app
-lSLF07#2@87"Touch /Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app295613550#295613550#0(0"0(0#0#0"4300885448#285"    cd "/Users/hanzhimeng/Documents/WPSC Sales"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app"0#
+lSLF07#2@87"Touch /Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app295659564#295659564#0(0"0(0#0#0"4300885448#285"    cd "/Users/hanzhimeng/Documents/WPSC Sales"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/hanzhimeng/Documents/WPSC Sales/build/Debug-iphonesimulator/WPSC Sales.app"0#
 

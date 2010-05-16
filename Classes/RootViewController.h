@@ -19,6 +19,8 @@
     IBOutlet UILabel *userNameLabel;
     IBOutlet UILabel *passwordLabel;
 }
-
+-(NSString *)getURL;
+-(NSString *)getUsername;
+-(NSString *)getPassword;
 
 @end

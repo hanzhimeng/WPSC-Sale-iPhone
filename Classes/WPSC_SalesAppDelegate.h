@@ -11,7 +11,7 @@
     UIWindow *window;
     UINavigationController *navigationController;
 	
-	NSString *user, *url, *pwd;
+	NSString *user, *url, *pwd, *salesLogRSS;
 }
 
 - (IBAction)saveBlog:(id)sender;

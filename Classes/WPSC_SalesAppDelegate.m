@@ -45,8 +45,15 @@
 }
 
 - (void)request: (XMLRPCRequest *)request didReceiveResponse: (XMLRPCResponse *)response{
-	//NSLog([response body]);
-	NSLog(@"responce");
+	NSString *message = [response body];
+	message = [message stringByReplacingOccurrencesOfString:@"" withString:<#(NSString *)replacement#>
+	//NSData *data = [[NSData alloc] initWithData:[message dataUsingEncoding:NSASCIIStringEncoding]];
+//
+//	NSXMLParser *parser = [[NSXMLParser alloc] initWithData:data];
+//	
+//	NSLog(@"%@", [parser parse]);
+
+	NSLog(@"response");
 }
 
 -(void)saveBlog:(id)sender{
@@ -57,12 +64,12 @@
 	
 	
     // Override point for customization after app launch
-	NSURL *URL = [NSURL URLWithString: @"http://ace.local/WP4E/xmlrpc.php"];
+	NSString *xmlrpcURL = [NSString stringWithFormat:@"http://%@/xmlrpc.php", url];
+	NSURL *URL = [NSURL URLWithString: xmlrpcURL];
 	XMLRPCRequest *request = [[XMLRPCRequest alloc] initWithURL: URL];
 	XMLRPCConnectionManager *manager = [XMLRPCConnectionManager sharedManager];
-	[request setMethod: @"wp.getUsersBlogs" withParameters: [NSArray arrayWithObjects: @"admin", @"beyondh7", nil]];
+	[request setMethod: @"wp.getUsersBlogs" withParameters: [NSArray arrayWithObjects: user, pwd, nil]];
 	[manager spawnConnectionWithXMLRPCRequest: request delegate: self];
-	NSLog(@"Saving");
 }
 
 - (void)request: (XMLRPCRequest *)request didFailWithError: (NSError *)error{
