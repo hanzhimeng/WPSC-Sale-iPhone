@@ -16,6 +16,8 @@
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
 		3151B2FD119E972200931CB6 /* getshopped.png in Resources */ = {isa = PBXBuildFile; fileRef = 3151B2FC119E972200931CB6 /* getshopped.png */; };
+		31B3943411A3F66100E60835 /* RSSTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B3943211A3F66100E60835 /* RSSTableController.m */; };
+		31B3943511A3F66100E60835 /* RSSTableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31B3943311A3F66100E60835 /* RSSTableController.xib */; };
 		31B8CE9B1189A4CF00F25000 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B8CE871189A4CF00F25000 /* NSDataAdditions.m */; };
 		31B8CE9C1189A4CF00F25000 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B8CE891189A4CF00F25000 /* NSStringAdditions.m */; };
 		31B8CE9D1189A4CF00F25000 /* XMLRPCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B8CE8E1189A4CF00F25000 /* XMLRPCConnection.m */; };
@@ -41,6 +43,9 @@
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3151B2FC119E972200931CB6 /* getshopped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = getshopped.png; sourceTree = "<group>"; };
+		31B3943111A3F66100E60835 /* RSSTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSTableController.h; sourceTree = "<group>"; };
+		31B3943211A3F66100E60835 /* RSSTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSTableController.m; sourceTree = "<group>"; };
+		31B3943311A3F66100E60835 /* RSSTableController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RSSTableController.xib; path = Classes/RSSTableController.xib; sourceTree = "<group>"; };
 		31B8CE861189A4CF00F25000 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
 		31B8CE871189A4CF00F25000 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
 		31B8CE881189A4CF00F25000 /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
@@ -86,6 +91,8 @@
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* WPSC_SalesAppDelegate.h */,
 				1D3623250D0F684500981E51 /* WPSC_SalesAppDelegate.m */,
+				31B3943111A3F66100E60835 /* RSSTableController.h */,
+				31B3943211A3F66100E60835 /* RSSTableController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -123,6 +130,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				31B3943311A3F66100E60835 /* RSSTableController.xib */,
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* WPSC_Sales-Info.plist */,
@@ -235,6 +243,7 @@
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
 				3151B2FD119E972200931CB6 /* getshopped.png in Resources */,
+				31B3943511A3F66100E60835 /* RSSTableController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +266,7 @@
 				31B8CEA11189A4CF00F25000 /* XMLRPCEventBasedParserDelegate.m in Sources */,
 				31B8CEA21189A4CF00F25000 /* XMLRPCRequest.m in Sources */,
 				31B8CEA31189A4CF00F25000 /* XMLRPCResponse.m in Sources */,
+				31B3943411A3F66100E60835 /* RSSTableController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

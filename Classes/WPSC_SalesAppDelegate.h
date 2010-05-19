@@ -10,11 +10,13 @@
     
     UIWindow *window;
     UINavigationController *navigationController;
-	
+	NSMutableArray *valueArray;
+	BOOL value;
 	NSString *user, *url, *pwd, *salesLogRSS;
 }
 
 - (IBAction)saveBlog:(id)sender;
+- (id)getValueArray;
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UINavigationController *navigationController;

@@ -34,6 +34,9 @@
 	// Save data if appropriate
 }
 
+- (id)getValueArray{
+	return valueArray;
+}
 
 #pragma mark -
 #pragma mark Memory management
@@ -46,14 +49,38 @@
 
 - (void)request: (XMLRPCRequest *)request didReceiveResponse: (XMLRPCResponse *)response{
 	NSString *message = [response body];
-	message = [message stringByReplacingOccurrencesOfString:@"" withString:<#(NSString *)replacement#>
-	//NSData *data = [[NSData alloc] initWithData:[message dataUsingEncoding:NSASCIIStringEncoding]];
-//
-//	NSXMLParser *parser = [[NSXMLParser alloc] initWithData:data];
-//	
-//	NSLog(@"%@", [parser parse]);
+	valueArray = [[NSMutableArray alloc] init];
+	//NSLog(message);
+	NSData *data = [[NSData alloc] initWithData:[message dataUsingEncoding:NSASCIIStringEncoding]];
 
+	NSXMLParser *parser = [[NSXMLParser alloc] initWithData:data];
+	[parser setDelegate:self];
+    [parser parse];
+	
+	NSLog(@"%@", valueArray);
+	
+	UIViewController *targetViewController = [[UIViewController alloc] initWithNibName:@"RSSTableController" bundle:nil];
+	
+	[self.navigationController pushViewController:targetViewController animated:YES];
 	NSLog(@"response");
+}
+
+- (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qualifiedName attributes:(NSDictionary *)attributeDict {
+	if ([elementName caseInsensitiveCompare:@"struct"] != 0){
+		if ([elementName isEqualToString:@"name"]) {
+			value = FALSE;
+			return;
+		} else if ([elementName isEqualToString:@"string"]) {
+			value = TRUE;
+			return;
+		}
+	}
+}
+
+- (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string {
+	if ((![string hasPrefix:@"\n"]) && (![string hasSuffix:@"\n"])) {
+		[valueArray addObject:string];
+	}
 }
 
 -(void)saveBlog:(id)sender{
